@@ -31,7 +31,7 @@ MAINTAINER Henrique henrique.pereira@uphold.com
 
 ### 3 - Build NGINX Docker container
 ```bash
-docker build -t nginx:1.17.10 
+docker build -t nginx:1.17.10 .
 
 # check if correctly built
 docker images
