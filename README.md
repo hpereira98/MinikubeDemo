@@ -79,7 +79,7 @@ kubectl rollout history deployment my-nginx --revision=1
 
 ### 9 - Build a new NGINX image with version 1.18.0
 ```bash
-docker build -t nginx:1.18.
+docker build -t nginx:1.18.0 .
 
 # check images
 docker images
