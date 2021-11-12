@@ -106,7 +106,7 @@ kubectl get deployments,replicaset,pods -l app=my-nginx
 
 ### 12 - Rollback Deployment to revision 1
 ```bash
-kubectl rollout undo deployment my-nginx –to-revision=1
+kubectl rollout undo deployment my-nginx -–to-revision=1
 
 # check if it was rolled out successfully
 kubectl rollout history deployment my-nginx
